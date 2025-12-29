@@ -1,0 +1,64 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ===== Virtual Environments =====
+.env
+.venv
+venv/
+ENV/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===== Data Files (DO NOT COMMIT) =====
+data/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ===== Model Artifacts =====
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.onnx
+
+# ===== Experiment / Logs =====
+logs/
+runs/
+wandb/
+mlruns/
+
+# ===== Plots / Outputs =====
+outputs/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+*.log
+*.tmp
+.cache/
